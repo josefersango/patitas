@@ -1,0 +1,339 @@
+/*font-family: 'Shadows Into Light', cursive;
+ font-family: 'Indie Flower', cursive;
+*/
+
+#contenidos{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+	
+
+}
+
+
+/*ETIQUETAS*/
+body{
+background-image: url(../img/fondo7.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+h1{
+font-family: 'Permanent Marker', cursive;
+color: #7401DF;
+margin-left: 80px;
+font-size: 80px;
+text-align: center; 
+}
+
+h2{
+width: 1000px;
+height: 170px;
+background-image: url(../img/banner.jpg);
+background-size:cover;
+border-radius: 20px;
+
+}
+
+h3{
+font-family: 'Chewy', cursive;
+color: white;
+font-size: 30px;
+text-align: center; 
+}
+h4{
+font-family: 'Chewy', cursive;
+color: white;
+font-size: 30px;
+text-align: center; 
+margin-top: 10px;
+}
+
+
+header{
+	width: 1000px;
+	height: 120 px;
+	background: rgba(255, 255, 255, 80,70);
+}
+
+nav{
+
+width: 1000px;
+height: 50px;
+background: maroon;
+border-radius: 20px;
+
+}
+ul{
+margin: auto;
+padding-top: 4px;
+border-radius: 20px;
+
+}
+
+li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+	background: black;
+	margin: 3px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px white inset; 
+
+}
+
+section{
+	width: 370px;
+	background-image: url(../img/seccion.jpg);
+	background-size: cover;
+	height: 600px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	border-radius: 20px;
+
+}
+
+img{
+	width: 240px;
+	background: gray;
+	height: 120px;
+	float: center;
+	border-radius: 20px;
+	
+}
+aside{
+
+	width: 190px;
+	background-image: url(../img/seccion1.jpg);
+	background-size: cover;
+	height: 600px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	border-radius: 20px;
+	
+}
+
+footer{
+width: 1000px;
+height: 70px;
+background: maroon;
+float: left;
+margin-top: 20px;
+border-radius: 10px;
+margin-bottom: 20px;
+}
+
+p{
+
+	font-size: 15px;
+	font-weight: bolder;
+	color: black;
+	line-height: 24px;
+	padding: 10px;
+	text-align: justify;
+}
+
+
+
+
+/*CLASES*/
+
+.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 970px;}
+
+.menu:link{color: white; text-decoration: none;}
+.menu:visited{color: white; text-decoration: none;}
+.menu:hover{color: white; text-decoration: none; text-shadow: 0 0 13px white;}
+.menu:active{color: white; text-decoration: none;}
+
+/*parte de pagina principal*/
+#imagen
+	{
+		width: 1000px;
+		height: 600px;
+		margin:center;
+		margin-top: 20px;
+		border-radius: 20px;
+	
+	
+		position: relative;
+		background-image:  url(../img/fondo6.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+	
+	}
+	#imagen aside{
+
+	width: 190px;
+	background-image: url(../img/seccion1.jpg);
+	background-size: cover;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	height: 300px;
+	float:right;
+	border-radius: 20px;
+	
+	}
+	#imagen ul{
+	margin: auto;
+	padding-top: 4px;
+	border-radius: 20px;
+	}
+	#imagen li{
+	float:center;
+	list-style-type: none;
+	padding: 10px;
+	background: maroon;
+	margin: 3px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px blue inset; 
+
+	}
+	
+	.homepage #imagen
+	
+	{
+/*parte de galeria de imagenes*/
+	}
+
+li .min	{
+	background: url(../img/seccion.jpg);
+	width: 70px;
+	height: 50px;
+	padding: 25px ;
+	}
+
+#centro h3{
+	font-family: 'Chewy', cursive;
+	color: #6E6E6E;
+	font-size: 50px;
+	text-align: center; 
+}
+	
+#titulo	{
+	padding: 10px;
+	text-align: center;
+	}
+	
+#borde	{
+	width: 275px;
+	height: 145px;
+	position: absolute;
+	top: 580px;	
+	left: 65%;	
+	background: url(../img/gatos1.jpg);
+	border-radius: 10px;
+	}
+
+.cat	{
+	list-style-type: none;
+	margin: 0 0 25px 10px; 
+	padding: 0px; 
+	float:left;
+	}
+	
+.max{
+	visibility: hidden;
+	position: absolute;
+	top: 600px;	
+	left: 67%;	
+  margin-left: 5px;
+	}
+	
+a:hover .max	{
+	visibility: visible;
+	}
+#centro footer{
+width: 1000px;
+height: 70px;
+background: maroon;
+float: center;
+margin-top: 20px;
+border-radius: 10px;
+margin-bottom: 20px;
+}
+/*Codigo CSS para formulario de contacto*/
+.contact h2 {
+    background: none repeat scroll 0 0 #F3F3F3;
+    width: 300px;
+	height: 40px;
+    border-radius: 5px;
+    color: #A901DB;
+    display: block;
+    font-family: sans-serif;
+    font-size: 30px;
+    padding: 5px;
+    text-shadow: 1px 1px 1px #CCCCCC;
+   
+}
+/* estilo para los ul y li del formulario de contacto*/
+.contact ul {
+    width:750px;
+    list-style-type:none;
+	margin:center;
+	padding:0px;
+}
+.contact li{
+	padding:12px; 
+	border-bottom:1px solid #eee;
+	position:relative;
+	background-color: white;
+} 
+.contact label {
+    color: #555555;
+    display: inline-block;
+    float: left;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 3px;
+    padding: 3px;
+    width: 90px;
+}
+.contact input {
+	height:20px; 
+	width:220px; 
+	padding:5px 8px;
+}
+.contact textarea {
+	padding:8px; 
+	width:400px;
+}
+.contact button {
+	margin-left:5px;
+}
+/*parte css para la imagen de la pagina quienes somos*/
+#quienes section{
+width: 1000px;
+height: 800px;
+background-image: url(../img/fondo4.jpg);
+background-size:cover;
+border-radius: 20px;
+
+}
+#quienes p{
+	font-size: 25px;
+	font-weight: bolder;
+	color: #0B4C5F;
+	line-height: 24px;
+	padding: 10px;
+	text-align: right;
+	vertical-align: right;
+    width: 50%;
+    float:right;
+
+}
+
+
+
+
+
+
+
+
+
+
+
